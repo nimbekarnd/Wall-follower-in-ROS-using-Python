@@ -20,9 +20,10 @@ We had to accomplish the Tasks automatically.
 - Python: 3.6.9
 - (Gazebo: 9.0.0)
 
-### Approach
+### Approached Code Structure
 
-To execute the same, I created one python package(FinalProject_ws) which has one module (motion_plan).
+To execute the same, I created one python package(FinalProject_ws) which has one module (motion_plan). 
+This module can be used in any catkin space if configured as per the tree below.
 
     .
     └── catkin_ws                       # Your simulation workspace
