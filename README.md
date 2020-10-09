@@ -14,6 +14,14 @@ We had to achieve the following tasks:
 
 We had to accomplish the Tasks automatically.
 
+### Test Environment
+- ROS: Melodic
+- Ubuntu: 18.04LTS
+- Python: 3.6.9
+- (Gazebo: 9.0.0)
+
+### Approach
+
 To execute the same, I created one python package(FinalProject_ws) which has one module (motion_plan).
 
 ### Follow_wall.py: 
@@ -25,17 +33,25 @@ right side and left side, the program will either enter the algorithm for Right 
 
 ## Instructions to run the code:(In PyCharm)
 
-* **Download the 'FinalProject_Nimbekar.zip' folder from Canvas and unzip it.
+* Download the 'FinalProject_Nimbekar.zip' folder from Canvas and unzip it.
 
-* **Run the `roscore` command in terminal to start ros.
+* Run the `roscore` command in terminal to start ros.
 
-* **Run the maze in one terminal:
+* Run the maze in terminal one:
 ```
 roslaunch maze maze.launch
 ```
-* **Then run the Code in another terminal: 
+* Then run the Code in terminal two: 
 ```
 rosrun motion_plan follow_wall.py
 ```
-* **Manually stop the code once the maze is cleared.
+* Manually stop the code once the maze is cleared.
 
+## Built With
+
+* [ROS](http://www.ros.org/) - Set of software libraries and tools used to build the robot
+* [Gazebo](http://gazebosim.org/) - Tool used to simulation
+* [Python](https://www.python.org/) - Programming language
+
+## Author
+[Nupur Nimbekar](https://github.com/nimbekarnd)
