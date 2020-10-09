@@ -24,6 +24,28 @@ We had to accomplish the Tasks automatically.
 
 To execute the same, I created one python package(FinalProject_ws) which has one module (motion_plan).
 
+   .
+    └── catkin_ws                       # Your simulation workspace
+        ├── src                         # Cloned from this directory 
+        │   ├── maze
+        │   │   ├── launch
+        │   │   |   ├── maze.launch 
+        │   │   ├── world
+        │   │   |   ├── maze.world      # Folder that contains maze 1's definitions
+        │   │   |   └── maze2.world     # Folder that contains maze 2's definitions
+        │   │   ├── CMakeLists.txt
+        │   │   └── pakage.xml
+        │   ├── motion_plan          
+        │   │   ├── nodes
+        │   │   |   ├── follow_wall.py  # Folder that contains motion planning for the robot
+        │   │   ├── src
+        │   │   |   └── ...
+        │   │   ├── CMakeLists.txt
+        │   │   └── pakage.xml
+        │   └── CMakeLists.txt
+        ├── devel                       # Folder created after compilation
+        └── build                       # Folder created after compilation
+
 ### Follow_wall.py: 
 
 This program consists of various fiunctions to check if the bot has detected a wall and based on the distance from obstacle on 
