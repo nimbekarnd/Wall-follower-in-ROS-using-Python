@@ -27,12 +27,12 @@ To execute the same, I created one python package(FinalProject_ws) which has one
 1. Download the 'FinalProject_Nimbekar.zip' folder from Canvas and unzip it.
 
 2. Run the maze in one terminal:
-
+```
 roslaunch maze maze.launch
-
+```
 3. Run the Code in another terminal: 
-
+```
 rosrun motion_plan follow_wall.py
-
+```
 4. Manually stop the code once the maze is cleared.
 
