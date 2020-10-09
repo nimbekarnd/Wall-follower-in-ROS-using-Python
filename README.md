@@ -7,10 +7,10 @@ The goal of this project is to solve a maze problem using only one Turtlebot 3 r
 
 We had to achieve the following tasks:
 
-* **Detect a wall
-* **Follow the wall
-* **Avoid collision with obstacles
-* **Find the exit
+* Detect a wall
+* Follow the wall
+* Avoid collision with obstacles
+* Find the exit
 
 We had to accomplish the Tasks automatically.
 
