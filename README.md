@@ -24,7 +24,7 @@ We had to accomplish the Tasks automatically.
 
 To execute the same, I created one python package(FinalProject_ws) which has one module (motion_plan).
 
-   .
+    .
     └── catkin_ws                       # Your simulation workspace
         ├── src                         # Cloned from this directory 
         │   ├── maze
