@@ -2,6 +2,8 @@
 
 This was my final project for a robotics course in UMD. (ENPM809E - Python Applications for Robotics)
 
+This algorithm was implemented using the [Robot Operating System (ROS)](http://www.ros.org/) libraries, [Gazebo](http://gazebosim.org/) as simulator and [Python](https://www.python.org/) as programming language. 
+
 ## Task
 The goal of this project is to solve a maze problem using only one Turtlebot 3 robot which comes equipped with a laser scanner.
 
